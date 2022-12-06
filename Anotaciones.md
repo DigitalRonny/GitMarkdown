@@ -47,7 +47,7 @@ void main()
 4. Trace/Seguimiento.
 
 # Conocer el Área de un rectángulo
-
+* Conocer como resolver el problema antes de codear
 1. Realizar el pseudocódigo
     * Imprimir por pantalla: "Ingrese la base del rectángulo"
     * Leer base
@@ -67,3 +67,41 @@ void main()
 ``` C
 
 ```
+---
+---
+
+#### Fecha: 06 - 12 - 2022
+
+# Área de un rectángulo 
+
+```C
+#include <stdio.h>
+
+/*
+* @autor    : DigitalRonny
+* @date     : 6.dic.2022
+* @details  : Determinar el area de un rectangulo
+*/
+
+int main()
+{   //declaras e inicializar las variables
+
+    int longitud = 0, ancho = 0, area_rectangulo = 0;
+
+	printf("Ingrese la longitud: ");
+    scanf("%i", &longitud);
+
+    printf("Ingrese el ancho: ");
+    scanf("%i", &ancho);
+
+    area_rectangulo = longitud * ancho;
+
+    printf("El area del rectangulo es: %i \n", area_rectangulo);
+    printf("El area del rectangulo de ancho %i ylongitud %i es %i", ancho,longitud, area_rectangulo);
+
+	return (0);
+}
+```
+
+
+
